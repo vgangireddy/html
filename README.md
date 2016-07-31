@@ -349,6 +349,9 @@ Some the semantic tags that are used inside the `<table>` tag are `<thead>`, `<t
 </table>
 ```
 
+##References
+
+[HTML & CSS: Design and Build Web Sites](http://www.wufai.edu.tw/information_technology_center/datasheet/HTML%20and%20CSS%20design%20and%20build%20websites.pdf)
 
 
 
