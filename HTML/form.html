@@ -1,0 +1,45 @@
+<!doctype html5>
+<html>
+  <head>
+    <title> This is a form still work in progress </title>
+  </head>
+  <!--   Create a `<form>` element that will ask to the user and will submit to `www.google.com` using `GET` method:
+      1. Name (textbox)
+      2. Last Name (textbox)
+      3. Birth Date (calendar)
+      4. Age (range)
+      5. Sex (option or radiobutton)
+      6. Email
+      7. Submit button
+
+    All of the input should be required and validated before submitted, and should have a proper label attached to it.
+    Don't forget to commit all changes.
+
+  -->
+        <body>
+          <h1>
+            Please fill the information requested accurately
+          </h1>
+          <form action="http://www.google.com" method="GET">
+          	<label1 for="First_Name"> First Name
+              <input name= "First_Name" type="text" id="First_name" placeholder="First Name" required>
+            <label2 for="Last_Name"> Last Name
+              <input name="Last_Name" type="text" id="Last_Name" Placeholder ="Last Name" required/></br>
+            <label3 for="Birth_Date"> Birth Date
+              <input name="Birth_Date" type="calendar" id="Calendar" placeholder="mm/dd/yyyy" required/>
+            <label4 for="Age"> Age
+              <input name="Age" type="number" min="18" max="100" id="Age" placeholder="Age" required/></br>
+            <label5 for="sex"> Sex
+              <input type="radio" name="sex" value="Male" required> Male
+              <input type="radio" name="sex" value="Female" required> Female
+          	  </br>
+          	<label6 for="Email">
+              Email
+              <input name="Email" type="text" id="Text" placeholder="Email" required>
+            <label7 for="submit"> Password
+              <input type="password" name="password" required>
+              <input type="submit" value="Submit">
+          </form>
+     </body>
+  </head>
+</html>
